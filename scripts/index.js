@@ -59,9 +59,9 @@ saveButton.addEventListener('click', (event) => {
         showData();
 
     } else if (movieList.includes(inputElement.value)) {
-        alert('This title already exists');
+        alert('This title already exists!');
     } else if (inputElement.value == '') {
-        alert('Please type in a movie title')
+        alert('Please type in a movie title!')
     }
 });
 
